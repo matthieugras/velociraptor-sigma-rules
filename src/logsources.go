@@ -270,18 +270,20 @@ func (self *CompilerContext) incMissingFieldInLogSource(
 }
 
 var valid_modifiers = map[string]bool{
-	"all":        true,
-	"any":        true,
-	"re":         true,
-	"contains":   true,
-	"endswith":   true,
-	"startswith": true,
-	"cidr":       true,
-	"gt":         true,
-	"gte":        true,
-	"lt":         true,
-	"lte":        true,
-	"vql":        true,
+	"all":          true,
+	"any":          true,
+	"re":           true,
+	"contains":     true,
+	"endswith":     true,
+	"startswith":   true,
+	"cidr":         true,
+	"gt":           true,
+	"gte":          true,
+	"lt":           true,
+	"lte":          true,
+	"vql":          true,
+	"base64":       true,
+	"base64offset": true,
 }
 
 func (self *CompilerContext) check_modifiers(

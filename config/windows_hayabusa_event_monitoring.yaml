@@ -331,6 +331,7 @@ FieldMappings:
   DvrFmwk2003InstanceId: "x=>x.UserData.UMDFHostDeviceArrivalBegin.InstanceId"
   PackageFullName: "x=>x.UserData.PackageFullName"
   VhdType: "x=>x.EventData.VhdType"
+  FilterOrigin: "x=>x.EventData.FilterOrigin"
 
 DefaultDetails:
   Query: |

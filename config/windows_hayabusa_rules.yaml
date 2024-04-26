@@ -334,6 +334,16 @@ FieldMappings:
   PackageFullName: "x=>x.UserData.PackageFullName"
   VhdType: "x=>x.EventData.VhdType"
 
+  FilterOrigin: "x=>x.EventData.FilterOrigin"
+  RemoteName: "x=>x.EventData.RemoteName"
+  processPath: "x=>x.EventData.processPath"
+  CreationUtcTime: "x=>timestamp(string=x.EventData.CreationUtcTime)"
+  TargetName: "x=>x.EventData.TargetName"
+  SubcategoryGuid: "x=>x.EventData.SubcategoryGuid"
+  #Binary: "x=>x.EventData.Binary"
+
+  # SourceName => Source Name
+
 DefaultDetails:
   Query: |
     x=>get(item=DefaultDetails,
